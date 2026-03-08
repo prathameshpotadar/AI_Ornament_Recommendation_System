@@ -1,0 +1,30 @@
+{
+  "gold": {
+    "ring": {
+      "price": 6200,
+      "image": "/static/images/gold_ring.jpg"
+    },
+    "necklace": {
+      "price": 5900,
+      "image": "/static/images/gold_necklace.jpg"
+    },
+    "bangle": {
+      "price": 6050,
+      "image": "/static/images/gold_bangle.jpg"
+    }
+  },
+  "silver": {
+    "ring": {
+      "price": 80,
+      "image": "/static/images/silver_ring.jpg"
+    },
+    "necklace": {
+      "price": 75,
+      "image": "/static/images/silver_necklace.jpg"
+    },
+    "bangle": {
+      "price": 85,
+      "image": "/static/images/silver_bangle.jpg"
+    }
+  }
+}

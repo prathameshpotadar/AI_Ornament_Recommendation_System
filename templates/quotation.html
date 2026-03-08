@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quotation - AI Ornament Recommendation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="quotation-body">
+  <div class="quotation-card fade-in">
+    <h1 class="glow-text">💎 Quotation Summary</h1>
+    <img src="{{ q.image }}" alt="Ornament Sample" class="ornament-image">
+    <div class="details">
+      <p><strong>Type:</strong> {{ q.type }}</p>
+      <p><strong>Design:</strong> {{ q.design }}</p>
+      <p><strong>Weight:</strong> {{ q.weight }}</p>
+      <p><strong>Price/Gram:</strong> {{ q.price_per_gram }}</p>
+      <p><strong>Total Price:</strong> {{ q.total_price }}</p>
+    </div>
+    <a href="/" class="btn-glow">🛍️ New Quotation</a>
+  </div>
+</body>
+</html>
